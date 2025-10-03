@@ -1,0 +1,53 @@
+.imageWrapper2 {
+    width: 70%;
+    text-align: center;
+    margin:0 auto
+    
+}
+.imageWrapper {
+    position: relative;
+    align-items: center;
+
+}
+.overlayImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height:auto;
+      min-width: 500px
+}
+
+.btn{
+    background-color:rgb(125, 149, 170);
+    color: white;
+    border: 1px solid white;
+/*     font-size: 15px; */
+  font-size: 105%;
+      width: 12%;
+
+/*     padding: 15px 30px; */
+      max-width: 120px;
+    min-height: 70px;
+    margin: 4px 2px;
+
+    border-radius: 5%;
+    transition-duration: 0.2s;
+    display: block;
+    
+}
+.btn:hover{
+/*     background-color: white; */
+/*     color: rgb(9, 98, 133); */
+    border: 3px solid rgb(9, 98, 133);
+    font-size: 100%;
+}
+#startButton{
+    background-color: rgb(228, 218, 196);
+    color: rgb(88, 55, 55);
+    border: 1px dotted rgb(88, 55, 55);
+}
+
+.text{
+    color:rgb(0, 69, 134)
+}
